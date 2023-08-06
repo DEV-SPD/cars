@@ -1,4 +1,4 @@
-flask
 pickle
+flask
+sklearn
 pandas
-scikit-learn
