@@ -1,5 +1,4 @@
 flask==2.3.2
 pickle
 pandas==1.5.3
-sklearn
 scikit-learn==1.2.1
