@@ -1,6 +1,6 @@
 import pickle
 import pandas as pd
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from sklearn.preprocessing import LabelEncoder
 
 with open('car_price_prediction', 'rb') as f:
