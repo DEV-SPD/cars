@@ -39,7 +39,7 @@ def predict_price():
     df2 = preprocessor(df)
 
     result = model.predict(df2)
-    return jsonify{'price' : 'result'}
+    return str(result)
 
 if __name__ == '__main__':
     app.run(debug=True,host="0.0.0.0",port=5000)
